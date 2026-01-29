@@ -1,0 +1,40 @@
+name: hci-alt-texts
+channels:
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch=1.12.1
+  - torchvision
+  - torchaudio
+
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - nltk
+  - tqdm
+  - pillow
+  - requests
+  - beautifulsoup4
+  - boto3
+  - ipython
+  - jupyterlab
+  - ipykernel
+
+  - pip:
+      - anyio>=3.5,<4
+      - aiohttp==3.8.3
+      - huggingface-hub==0.9.1
+      - transformers==4.21.3
+      - pytorch-lightning==1.4.9
+      - torchmetrics==0.5.1
+      - spacy==3.4.1
+      - scispacy==0.5.1
+      - nmslib==2.1.1
+      - tokenizers==0.12.1
+      - tensorboard==2.10.1
