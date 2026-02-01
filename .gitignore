@@ -1,7 +1,0 @@
-data/*
-.vscode/
-notebooks/.ipynb_checkpoints/
-scripts/
-
-!data/hci-alt-text-dataset-20220915.jsonl
-!data/pdf_alttext_success.csv
